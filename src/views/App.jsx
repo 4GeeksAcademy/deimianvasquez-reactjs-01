@@ -2,23 +2,19 @@
 import React from "react"
 import { Navbar } from "../js/components/Navbar.jsx"
 import Saludar from "../js/components/Saludar.jsx"
+import Jumbotron from "../js/components/Jumbotron.jsx"
 
 
 function App() {
     return (
         <> {/*Fragmento de React */}
             <Navbar />
-            <h1>Hola ¿qué tal?. Estoy desde el componente app</h1>
-            <Saludar />
-            <Navbar />
 
-            <Navbar />
+            <div className="container border border-danger">
+                <Jumbotron />
+            </div>
 
-            <Navbar />
-            <Navbar />
-            <Navbar />
-            <Navbar />
-
+            <h1>Footer</h1>{/* footer */}
         </>
     )
 }
