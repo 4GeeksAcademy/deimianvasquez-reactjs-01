@@ -6,7 +6,7 @@ import ReactDOM from "react-dom/client";
 // import "../styles/index.css";
 
 // components
-import App from "../views/App.jsx"
+import App from "./views/App.jsx"
 
 //render your react application
 ReactDOM.createRoot(document.getElementById('app')).render(<App />);

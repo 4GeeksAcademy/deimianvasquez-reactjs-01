@@ -1,20 +1,18 @@
 import React from "react";
+import '../../styles/index.css'
 
-
-const Jumbotron = () => {
+function Jumbotron() {
     return (
-        <div className="row  mt-3">
-            <div className="col-12 bg-light">
-                <h1 className="display-3">A Warm Welcome</h1>
-            </div>
+        <div className="row d-flex justify-content-center my-4">
             <div className="col-12">
-
-            </div>
-            <div className="col-12">
-
+                <div className="greyBackground px-4 pb-5 rounded">
+                    <h1>A Warm Welcome!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt minima iusto ipsam! Facilis eligendi et nostrum ab, molestias, earum, quae necessitatibus aliquam voluptatibus harum quam! Nostrum possimus quod cumque illo..</p>
+                    <button className="btn btn-primary">Call to action!</button>
+                </div>
             </div>
         </div>
     )
 }
 
-export default Jumbotron;
+export default Jumbotron
